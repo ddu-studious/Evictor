@@ -1,3 +1,5 @@
+# Map 缓存工具，基于JDK ConcurrentHashMap实现，增加了put和get判断是否已经可回收判断，已经过期则不返回值。增加了一些定期检查工具（调度Scheduler的实现）
+
 # Evictor: Concurrent Map with Timed Entry Eviction
 
 [![Build Status](https://travis-ci.org/stoyanr/Evictor.svg?branch=master)](https://travis-ci.org/stoyanr/Evictor)
